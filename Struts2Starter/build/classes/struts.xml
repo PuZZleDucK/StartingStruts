@@ -6,7 +6,7 @@
 <struts>
 
 	<package name="default" extends="struts-default">
-		<action name="getTutorial" class="com.puzzleduck.struts.action.TutorialAction">
+		<action name="index" class="com.puzzleduck.struts.action.TutorialAction">
 			<result name="success">success.jsp</result>
 			<result name="failure">failure.jsp</result>
 		</action>
